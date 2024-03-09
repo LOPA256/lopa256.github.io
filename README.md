@@ -1,90 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrien-santé</title>
+    <title>Site pour Madame Châtaigne</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #93C572; /* Green */
-            color: #fff; /* White */
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); /* Remplacez 'background.jpg' par le chemin de votre image de fond */
+            background-size: cover;
         }
 
-        header {
-            background-color: #2E7D32; /* Dark green */
-            padding: 20px;
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
             text-align: center;
+            color: white;
+        }
+
+        .poem {
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité du texte */
+            padding: 20px;
+            border-radius: 10px;
         }
 
         h1 {
-            margin: 0;
+            font-size: 2.5em;
         }
 
-        nav {
-            background-color: #558B2F; /* Light green */
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #558B2F; /* Light green */
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
         }
     </style>
 </head>
-
 <body>
-
-    <header>
-        <h1>Adrien-santé</h1>
-    </header>
-
-    <nav>
-        <a href="#articles">Articles</a>
-        <a href="#formation">Formation</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="articles">
-        <h2>Articles sur la santé</h2>
-        <p>Here you'll find informative articles on health and wellness.</p>
-    </section>
-
-    <section id="formation">
-        <h2>Formation</h2>
-        <p>Stay tuned for updates on upcoming training sessions and workshops!</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me:</p>
-        <p>Email: adrien.sante@example.com</p>
-        <p>Phone: +1 (123) 456-7890</p>
-    </section>
-
-    <footer>
-        &copy; 2024 Adrien-santé
-    </footer>
-
+    <div class="container">
+        <div class="poem">
+            <h1>Poème pour Madame Châtaigne</h1>
+            <p>
+                Oh, douce Madame Châtaigne,<br>
+                Ton sourire illumine mes jours,<br>
+                Comme les rayons du soleil qui baignent,<br>
+                Les champs d'or et d'amour.<br><br>
+                Tes yeux brillent comme des étoiles,<br>
+                Dans le ciel de mes rêves enchantés,<br>
+                Et ton rire résonne comme une farandole,<br>
+                De notes joyeuses, sucrées.<br><br>
+                Ton cœur est un jardin secret,<br>
+                Où fleurissent mille trésors,<br>
+                Et chaque instant passé à tes côtés,<br>
+                Est un cadeau de plus en or.<br><br>
+                Madame Châtaigne, toi qui enflamme,<br>
+                Mon âme et mon esprit,<br>
+                Je te dédie ce modeste poème,<br>
+                Symbole de mon amour infini.<br>
+            </p>
+        </div>
+    </div>
 </body>
-
 </html>
