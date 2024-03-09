@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
             margin: 0 auto;
             padding: 50px 0;
             text-align: center;
-            color: white;
+            color: red;
         }
 
         .poem {
@@ -40,7 +40,7 @@
 <body>
     <div class="container">
         <div class="poem">
-            <h1>Poème pour Madame Châtaigne</h1>
+            <h1>Poème pour Ma poule châtaigne</h1>
             <p>
                 Oh, douce Madame Châtaigne,<br>
                 Ton sourire illumine mes jours,<br>
