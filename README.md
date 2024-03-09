@@ -1,64 +1,37 @@
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site pour Madame Châtaigne</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('background.jpg'); /* Remplacez 'background.jpg' par le chemin de votre image de fond */
-            background-size: cover;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 50px 0;
-            text-align: center;
-            color: red;
-        }
-
-        .poem {
-            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité du texte */
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-        }
-
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-    </style>
+    <title>Ma Boutique en Ligne</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="poem">
-            <h1>Poème pour Ma poule châtaigne</h1>
-            <p>
-                Oh, douce Madame Châtaigne,<br>
-                Ton sourire illumine mes jours,<br>
-                Comme les rayons du soleil qui baignent,<br>
-                Les champs d'or et d'amour.<br><br>
-                Tes yeux brillent comme des étoiles,<br>
-                Dans le ciel de mes rêves enchantés,<br>
-                Et ton rire résonne comme une farandole,<br>
-                De notes joyeuses, sucrées.<br><br>
-                Ton cœur est un jardin secret,<br>
-                Où fleurissent mille trésors,<br>
-                Et chaque instant passé à tes côtés,<br>
-                Est un cadeau de plus en or.<br><br>
-                Madame Châtaigne, toi qui enflamme,<br>
-                Mon âme et mon esprit,<br>
-                Je te dédie ce modeste poème,<br>
-                Symbole de mon amour infini.<br>
-            </p>
+        <h1>Ma Boutique en Ligne</h1>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Produit 1</h2>
+                <p>Description du Produit 1</p>
+                <p>Prix: $19.99</p>
+                <button class="add-to-cart" data-name="Produit 1" data-price="19.99">Ajouter au Panier</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Produit 2</h2>
+                <p>Description du Produit 2</p>
+                <p>Prix: $24.99</p>
+                <button class="add-to-cart" data-name="Produit 2" data-price="24.99">Ajouter au Panier</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h2>Panier</h2>
+            <ul class="cart-items"></ul>
+            <p class="total">Total: $<span>0.00</span></p>
+            <button class="checkout">Passer la Commande</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
